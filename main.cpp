@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
 
 
     default:
-            std::cout << "Usage: " << argv[0] << " source.fbx fps start-timecode end-timecode out.fbx" << std::endl;
+            std::cout << "Usage: " << argv[0] << " source.fbx out.csv" << std::endl;
             return 1;
     }
 
